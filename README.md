@@ -27,3 +27,6 @@ Uncompress the zip file into a folder.
 * In Firefox: Open the ***about:debugging*** page , click the *This Firefox* option, click the *Load Temporary Add-on* button, then select any file in your extension's directory.
 
 The extension now installs, and remains installed until you restart Firefox.
+
+## Convert Image to PDF:
+You can go on https://subhra74.github.io/img2pdf/
