@@ -1,0 +1,33 @@
+{
+
+  "manifest_version": 2,
+  "name": "PDF_DL",
+  "version": "1.0",
+
+  "description": "An addon that downloads PDF images from PDF reader-only website magazine (like EuroPresse)",
+  
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["[Website]"],
+	  "_comment": "Change website ([Website]) to your website and delete this ligne (eg:*://europresse.com/Pdf/Edition?*)",
+      "js": ["europress.js"]
+    }
+  ],
+  
+  "permissions": [
+        "activeTab","downloads","tabs","notifications"
+    ],
+
+  
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/page-16.png",
+      "32": "icons/page-32.png"
+    }
+  }
+
+}
