@@ -30,3 +30,7 @@ The extension now installs, and remains installed until you restart Firefox.
 
 ## Convert Image to PDF:
 You can go on https://subhra74.github.io/img2pdf/
+
+# Warning:
+## This program is given as is, the content of press and magazine are distributed according to international copyright laws and conventions and can be limited for a personal and temporary viewing purposes.
+# The publisher of this program cannot be held responsible for any fraudulent activity.
